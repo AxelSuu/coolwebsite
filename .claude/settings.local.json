@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:orpetron.com)",
+      "WebFetch(domain:lewo-media.de)",
+      "WebFetch(domain:www.creativedevjobs.com)",
+      "WebFetch(domain:tympanus.net)",
+      "WebFetch(domain:dev.to)",
+      "Bash(npm create:*)",
+      "Bash(npm install:*)",
+      "Bash(npx tsc:*)",
+      "Bash(npx vite:*)",
+      "Bash(curl -s http://localhost:5173/)",
+      "Bash(curl -s http://localhost:5173/src/main.ts)",
+      "Bash(start:*)",
+      "Bash(pkill -f \"vite\")",
+      "Bash(pkill -f \"node.*vite\")",
+      "Bash(npm uninstall:*)"
+    ]
+  }
+}
